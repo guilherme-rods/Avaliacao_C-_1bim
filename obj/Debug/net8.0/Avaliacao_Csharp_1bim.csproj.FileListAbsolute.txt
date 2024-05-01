@@ -1,0 +1,15 @@
+C:\Users\guilh\Documents\5. Curso - Análise e Desenvolvimento de Sistemas\5.2 - 1º semestre 2024\5.2.3 - Tópicos Especiais de Sistemas\Avaliacao_Csharp_1bim\bin\Debug\net8.0\Avaliacao_Csharp_1bim.exe
+C:\Users\guilh\Documents\5. Curso - Análise e Desenvolvimento de Sistemas\5.2 - 1º semestre 2024\5.2.3 - Tópicos Especiais de Sistemas\Avaliacao_Csharp_1bim\bin\Debug\net8.0\Avaliacao_Csharp_1bim.deps.json
+C:\Users\guilh\Documents\5. Curso - Análise e Desenvolvimento de Sistemas\5.2 - 1º semestre 2024\5.2.3 - Tópicos Especiais de Sistemas\Avaliacao_Csharp_1bim\bin\Debug\net8.0\Avaliacao_Csharp_1bim.runtimeconfig.json
+C:\Users\guilh\Documents\5. Curso - Análise e Desenvolvimento de Sistemas\5.2 - 1º semestre 2024\5.2.3 - Tópicos Especiais de Sistemas\Avaliacao_Csharp_1bim\bin\Debug\net8.0\Avaliacao_Csharp_1bim.dll
+C:\Users\guilh\Documents\5. Curso - Análise e Desenvolvimento de Sistemas\5.2 - 1º semestre 2024\5.2.3 - Tópicos Especiais de Sistemas\Avaliacao_Csharp_1bim\bin\Debug\net8.0\Avaliacao_Csharp_1bim.pdb
+C:\Users\guilh\Documents\5. Curso - Análise e Desenvolvimento de Sistemas\5.2 - 1º semestre 2024\5.2.3 - Tópicos Especiais de Sistemas\Avaliacao_Csharp_1bim\obj\Debug\net8.0\Avaliacao_Csharp_1bim.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilh\Documents\5. Curso - Análise e Desenvolvimento de Sistemas\5.2 - 1º semestre 2024\5.2.3 - Tópicos Especiais de Sistemas\Avaliacao_Csharp_1bim\obj\Debug\net8.0\Avaliacao_Csharp_1bim.AssemblyInfoInputs.cache
+C:\Users\guilh\Documents\5. Curso - Análise e Desenvolvimento de Sistemas\5.2 - 1º semestre 2024\5.2.3 - Tópicos Especiais de Sistemas\Avaliacao_Csharp_1bim\obj\Debug\net8.0\Avaliacao_Csharp_1bim.AssemblyInfo.cs
+C:\Users\guilh\Documents\5. Curso - Análise e Desenvolvimento de Sistemas\5.2 - 1º semestre 2024\5.2.3 - Tópicos Especiais de Sistemas\Avaliacao_Csharp_1bim\obj\Debug\net8.0\Avaliacao_Csharp_1bim.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Documents\5. Curso - Análise e Desenvolvimento de Sistemas\5.2 - 1º semestre 2024\5.2.3 - Tópicos Especiais de Sistemas\Avaliacao_Csharp_1bim\obj\Debug\net8.0\Avaliacao_Csharp_1bim.sourcelink.json
+C:\Users\guilh\Documents\5. Curso - Análise e Desenvolvimento de Sistemas\5.2 - 1º semestre 2024\5.2.3 - Tópicos Especiais de Sistemas\Avaliacao_Csharp_1bim\obj\Debug\net8.0\Avaliacao_Csharp_1bim.dll
+C:\Users\guilh\Documents\5. Curso - Análise e Desenvolvimento de Sistemas\5.2 - 1º semestre 2024\5.2.3 - Tópicos Especiais de Sistemas\Avaliacao_Csharp_1bim\obj\Debug\net8.0\refint\Avaliacao_Csharp_1bim.dll
+C:\Users\guilh\Documents\5. Curso - Análise e Desenvolvimento de Sistemas\5.2 - 1º semestre 2024\5.2.3 - Tópicos Especiais de Sistemas\Avaliacao_Csharp_1bim\obj\Debug\net8.0\Avaliacao_Csharp_1bim.pdb
+C:\Users\guilh\Documents\5. Curso - Análise e Desenvolvimento de Sistemas\5.2 - 1º semestre 2024\5.2.3 - Tópicos Especiais de Sistemas\Avaliacao_Csharp_1bim\obj\Debug\net8.0\Avaliacao_Csharp_1bim.genruntimeconfig.cache
+C:\Users\guilh\Documents\5. Curso - Análise e Desenvolvimento de Sistemas\5.2 - 1º semestre 2024\5.2.3 - Tópicos Especiais de Sistemas\Avaliacao_Csharp_1bim\obj\Debug\net8.0\ref\Avaliacao_Csharp_1bim.dll

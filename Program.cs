@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Ex04;
+
+//*** Teste EX04: ***
+Produto pastel = new Produto("pastel", 10.50, 10);
+pastel.AdicionarEstoque(5);
+pastel.RemoverEstoque(8);
+Console.WriteLine("Valor:" + pastel.CalcularValorEstoque());
+

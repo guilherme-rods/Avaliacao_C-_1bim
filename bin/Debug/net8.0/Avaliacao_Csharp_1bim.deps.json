@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Avaliacao_Csharp_1bim/1.0.0": {
+        "runtime": {
+          "Avaliacao_Csharp_1bim.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Avaliacao_Csharp_1bim/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
