@@ -1,0 +1,51 @@
+Claro! Aqui está uma implementação básica em C# da classe Produto conforme suas especificações:
+
+```csharp
+using System;
+
+public class Produto
+{
+    public string Nome { get; private set; }
+    public double Preco { get; private set; }
+    public int QuantidadeEmEstoque { get; private set; }
+
+    public Produto(string nome, double preco, int quantidadeEmEstoque)
+    {
+        Nome = nome;
+        Preco = preco;
+        QuantidadeEmEstoque = quantidadeEmEstoque;
+    }
+
+    public void AdicionarAoEstoque(int quantidade)
+    {
+        if (quantidade < 0)
+        {
+            throw new ArgumentException("A quantidade a adicionar deve ser positiva.");
+        }
+
+        QuantidadeEmEstoque += quantidade;
+    }
+
+    public void RemoverDoEstoque(int quantidade)
+    {
+        if (quantidade < 0)
+        {
+            throw new ArgumentException("A quantidade a remover deve ser positiva.");
+        }
+
+        if (quantidade > QuantidadeEmEstoque)
+        {
+            throw new InvalidOperationException("Não há unidades suficientes em estoque.");
+        }
+
+        QuantidadeEmEstoque -= quantidade;
+    }
+
+    public double CalcularValorTotalEmEstoque()
+    {
+        return Preco * QuantidadeEmEstoque;
+    }
+}
+```
+
+Esta classe `Produto` tem três propriedades: `Nome`, `Preco`, `QuantidadeEmEstoque`. Os métodos `AdicionarAoEstoque` e `RemoverDoEstoque` permitem adicionar e remover unidades do estoque, respectivamente, enquanto `CalcularValorTotalEmEstoque` calcula o valor total do produto em estoque multiplicando o preço pelo número de unidades em estoque.
