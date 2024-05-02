@@ -1,0 +1,1 @@
+Considerando uma classe base cursos e 3 subclasses CursoIngles, CursoEspanhol e CursoFrances, onde a classe base possui o método CalcularMedia() e o método GerarCertificado(). Como definir uma condição onde o método GerarCertificado() só será executado quando o calculo da média de um aluno for maior que 7 em algum desses cursos usando C#?

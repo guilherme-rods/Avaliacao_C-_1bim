@@ -1,0 +1,1 @@
+Como definir um construtor de uma subclasse que agregue os parametros do construtor da classe base usando C#?

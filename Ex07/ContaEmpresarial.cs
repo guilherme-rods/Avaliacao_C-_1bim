@@ -6,7 +6,7 @@ public class ContaEmpresarial : ContaBancaria{
     public ContaEmpresarial(string titular, int num_conta) : base(titular, num_conta) { 
     }
 
-    public void VerificarSaldoMinimo(){
+    public void VerificarSaldoMinimo(){ 
         if(saldo < saldo_minimo){
             Console.WriteLine("Saldo abaixo do mínimo definido.");
         }

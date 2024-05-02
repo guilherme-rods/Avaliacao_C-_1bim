@@ -38,31 +38,50 @@ public class Programa{
 
         //*** Teste EX07: ***
 
-        ContaCorrente cc = new ContaCorrente("Guilherme", 1234);
-        Console.WriteLine("Conta Corrente:");
-        Console.WriteLine("Titular: " + cc.titular);
-        cc.saldo = 5000;
-        cc.Depositar(500);
-        cc.Sacar(3000);
-        cc.MostrarInfo();
+        // ContaCorrente cc = new ContaCorrente("Guilherme", 1234);
+        // Console.WriteLine("Conta Corrente:");
+        // Console.WriteLine("Titular: " + cc.titular);
+        // cc.saldo = 5000;
+        // cc.Depositar(500);
+        // cc.Sacar(3000);
+        // cc.MostrarInfo();
 
-        ContaPoupanca cp = new ContaPoupanca("Ana", 5678);
-        Console.WriteLine("Conta Poupança:");
-        Console.WriteLine("Titular: " + cp.titular);
-        cp.saldo = 800;
-        cp.CalcularJuros(5);
+        // ContaPoupanca cp = new ContaPoupanca("Ana", 5678);
+        // Console.WriteLine("Conta Poupança:");
+        // Console.WriteLine("Titular: " + cp.titular);
+        // cp.saldo = 800;
+        // cp.CalcularJuros(5);
 
-        ContaEmpresarial ce = new ContaEmpresarial("João", 9101112);
-        Console.WriteLine("Conta Empresarial:");
-        Console.WriteLine("Titular: " + ce.titular);
-        ce.saldo_minimo = 1000;
-        ce.saldo = 500;
-        ce.VerificarSaldoMinimo();
+        // ContaEmpresarial ce = new ContaEmpresarial("João", 9101112);
+        // Console.WriteLine("Conta Empresarial:");
+        // Console.WriteLine("Titular: " + ce.titular);
+        // ce.saldo_minimo = 1000;
+        // ce.saldo = 500;
+        // ce.VerificarSaldoMinimo();
 
-        
         //---------------------------------------------------------------------------------
 
+        //*** Teste EX08: ***
 
+        CursoEspanhol cursoe = new CursoEspanhol("Espanhol Avançado");
+        cursoe.nota[0] = 4;
+        cursoe.nota[1] = 6;
+        Console.WriteLine("Média: " + cursoe.CalcularMedia());
+        cursoe.GerarCertificado("Pedro");
+
+        CursoIngles cursoi = new CursoIngles("Inglês Avançado");
+        cursoi.nota[0] = 8;
+        cursoi.nota[1] = 9;
+        Console.WriteLine("Média: " + cursoi.CalcularMedia());
+        cursoi.GerarCertificado("Guilherme");
+
+        CursoFrances cursof = new CursoFrances("Francês Avançado");
+        cursof.nota[0] = 6;
+        cursof.nota[1] = 8.5;
+        Console.WriteLine("Média: " + cursof.CalcularMedia());
+        cursof.GerarCertificado("Lucas");
+
+        //---------------------------------------------------------------------------------
 
     }
 }
