@@ -101,5 +101,27 @@ public class Programa{
 
         //---------------------------------------------------------------------------------
 
+        //*** Teste EX10: ***
+
+        IReserva reserva = new ReservaVooRegular("459");
+
+        reserva.ReservarVoo("459");
+        Console.WriteLine(reserva.VerificarReserva());
+        reserva.CancelarReserva();
+        Console.WriteLine(reserva.VerificarReserva());
+
+        reserva = new ReservaVooUpgrade("776");
+        reserva.ReservarVoo("776");
+        Console.WriteLine(reserva.VerificarReserva());
+        reserva.CancelarReserva();
+        Console.WriteLine(reserva.VerificarReserva());
+
+        reserva = new ReservaVooGrupo("993");
+        reserva.ReservarVoo("993");
+        Console.WriteLine(reserva.VerificarReserva());
+        reserva.CancelarReserva();
+        Console.WriteLine(reserva.VerificarReserva());
+
+        //---------------------------------------------------------------------------------
     }
 }

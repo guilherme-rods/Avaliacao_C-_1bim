@@ -1,0 +1,1 @@
+Como usar um operador condicional dentro de um método que retorna uma variavel tipo bool em C#?
