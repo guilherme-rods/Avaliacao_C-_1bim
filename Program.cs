@@ -63,23 +63,41 @@ public class Programa{
 
         //*** Teste EX08: ***
 
-        CursoEspanhol cursoe = new CursoEspanhol("Espanhol Avançado");
-        cursoe.nota[0] = 4;
-        cursoe.nota[1] = 6;
-        Console.WriteLine("Média: " + cursoe.CalcularMedia());
-        cursoe.GerarCertificado("Pedro");
+        // CursoEspanhol cursoe = new CursoEspanhol("Espanhol Avançado");
+        // cursoe.nota[0] = 4;
+        // cursoe.nota[1] = 6;
+        // Console.WriteLine("Média: " + cursoe.CalcularMedia());
+        // cursoe.GerarCertificado("Pedro");
 
-        CursoIngles cursoi = new CursoIngles("Inglês Avançado");
-        cursoi.nota[0] = 8;
-        cursoi.nota[1] = 9;
-        Console.WriteLine("Média: " + cursoi.CalcularMedia());
-        cursoi.GerarCertificado("Guilherme");
+        // CursoIngles cursoi = new CursoIngles("Inglês Avançado");
+        // cursoi.nota[0] = 8;
+        // cursoi.nota[1] = 9;
+        // Console.WriteLine("Média: " + cursoi.CalcularMedia());
+        // cursoi.GerarCertificado("Guilherme");
 
-        CursoFrances cursof = new CursoFrances("Francês Avançado");
-        cursof.nota[0] = 6;
-        cursof.nota[1] = 8.5;
-        Console.WriteLine("Média: " + cursof.CalcularMedia());
-        cursof.GerarCertificado("Lucas");
+        // CursoFrances cursof = new CursoFrances("Francês Avançado");
+        // cursof.nota[0] = 6;
+        // cursof.nota[1] = 8.5;
+        // Console.WriteLine("Média: " + cursof.CalcularMedia());
+        // cursof.GerarCertificado("Lucas");
+
+        //---------------------------------------------------------------------------------
+
+        //*** Teste EX09: ***
+
+        IMetodoPagamento metodoPagamento;
+
+        metodoPagamento = new CartaoDeCredito();
+        metodoPagamento.RealizarPagamento(500);
+        Console.WriteLine(metodoPagamento.VerificarPagamento());
+
+        metodoPagamento = new BoletoBancario();
+        metodoPagamento.RealizarPagamento(100);
+        Console.WriteLine(metodoPagamento.VerificarPagamento());
+
+        metodoPagamento = new TransferenciaBancaria();
+        metodoPagamento.RealizarPagamento(1000);
+        Console.WriteLine(metodoPagamento.VerificarPagamento());
 
         //---------------------------------------------------------------------------------
 

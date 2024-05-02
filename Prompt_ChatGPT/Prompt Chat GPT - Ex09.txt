@@ -1,0 +1,3 @@
+1. Devido a interface ser abstrata, há a necessidade de usar o termo virtual na construção de um método, permitindo sua implementação em outra classe?
+
+2. Como utilizar/chamar a interface na classe programa?
