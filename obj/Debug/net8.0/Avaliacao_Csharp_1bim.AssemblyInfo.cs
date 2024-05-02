@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Avaliacao_Csharp_1bim")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4181988b95cafd8b3bb4c6de9dfec72cfa4a25f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57851b622ee3c402b470308fd09c5cf9220b4298")]
 [assembly: System.Reflection.AssemblyProductAttribute("Avaliacao_Csharp_1bim")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Avaliacao_Csharp_1bim")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

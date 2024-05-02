@@ -1,6 +1,6 @@
 namespace Ex04
 {
-    public class Produto : IProduto
+    public class Produto
     {
         public string nome { get; set; }
         public double preco { get; set; }

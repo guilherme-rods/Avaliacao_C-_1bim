@@ -26,13 +26,39 @@ public class Programa{
 
         //*** Teste EX06: ***
 
-        Carro carro = new Carro();
-        carro.modelo = "Onix";
-        carro.marca = "Chevrolet";
-        carro.num_portas = 4;
-        Console.WriteLine("Modelo:" + carro.modelo);
-        Console.WriteLine("Marca:" + carro.marca);
-        Console.WriteLine("Quantidade de portas:" + carro.num_portas);
+        // Carro carro = new Carro();
+        // carro.modelo = "Onix";
+        // carro.marca = "Chevrolet";
+        // carro.num_portas = 4;
+        // Console.WriteLine("Modelo:" + carro.modelo);
+        // Console.WriteLine("Marca:" + carro.marca);
+        // Console.WriteLine("Quantidade de portas:" + carro.num_portas);
+        
+        //---------------------------------------------------------------------------------
+
+        //*** Teste EX07: ***
+
+        ContaCorrente cc = new ContaCorrente("Guilherme", 1234);
+        Console.WriteLine("Conta Corrente:");
+        Console.WriteLine("Titular: " + cc.titular);
+        cc.saldo = 5000;
+        cc.Depositar(500);
+        cc.Sacar(3000);
+        cc.MostrarInfo();
+
+        ContaPoupanca cp = new ContaPoupanca("Ana", 5678);
+        Console.WriteLine("Conta Poupança:");
+        Console.WriteLine("Titular: " + cp.titular);
+        cp.saldo = 800;
+        cp.CalcularJuros(5);
+
+        ContaEmpresarial ce = new ContaEmpresarial("João", 9101112);
+        Console.WriteLine("Conta Empresarial:");
+        Console.WriteLine("Titular: " + ce.titular);
+        ce.saldo_minimo = 1000;
+        ce.saldo = 500;
+        ce.VerificarSaldoMinimo();
+
         
         //---------------------------------------------------------------------------------
 
